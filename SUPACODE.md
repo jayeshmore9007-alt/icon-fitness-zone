@@ -13,7 +13,3 @@ Design tokens (src/styles/globals.css): --color-bg #0b0d12, --color-surface #161
 Decisions: UI copy in German; dark theme with orange accent; headings white on dark surfaces.
 
 Image style: photographic, dark gym interiors with glowing orange light; abstract glowing orange-on-dark illustrations.
-
-Media: image lists live in `src/data/media.ts` (feature illustrations, studio gallery).
-
-Android: Capacitor config in `capacitor.config.ts` (webDir `dist`). Build locally: `npm i`, `npm run android:add`, `npm run android:sync`, `npm run android:open`, then build the APK in Android Studio.
